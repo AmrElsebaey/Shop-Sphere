@@ -17,7 +17,7 @@ public class OpenApiConfig {
                         .license(new License().name("Apache 2.0")))
                 .externalDocs(new ExternalDocumentation()
                         .description("Product Service Documentation")
-                        .url("https://github.com/AmrElsebaey/Shop-Sphere/tree/main/product-service")
+                        .url("https://github.com/AmrElsebaey/Shop-Sphere/tree/main/product-service"));
     }
 
 }
