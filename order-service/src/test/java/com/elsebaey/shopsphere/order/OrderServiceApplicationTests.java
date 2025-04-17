@@ -40,7 +40,12 @@ class OrderServiceApplicationTests {
                 {
                      "skuCode": "iphone_15",
                      "price": 1000,
-                     "quantity": 1
+                     "quantity": 1,
+                     "userDetails": {
+						"firstName": "John",
+						"lastName": "Doe",
+						"email": "bXnIb@example.com"
+					}
                 }
                 """;
 		InventoryClientStub.stubInventoryCall("iphone_15", 1);
